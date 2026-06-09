@@ -1,0 +1,15 @@
+R packages used by r_scripts:
+
+- dplyr
+- ggplot2
+- ggrepel
+- patchwork
+- ragg
+- readr
+- svglite
+
+To replace this package list with exact session information before publication,
+run the following command from the repository root in an R environment with the
+packages installed:
+
+Rscript -e "sink('environment_r.txt'); sessionInfo(); sink()"

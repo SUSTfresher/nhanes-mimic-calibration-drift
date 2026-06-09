@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Restricted or generated data
+data/**
+!data/
+!data/.gitignore
+!data/README.md
+outputs/**
+!outputs/
+!outputs/.gitignore
+!outputs/README.md
+
+# Model artifacts and large generated files
+*.joblib
+*.duckdb
+*.parquet
+*.feather
+*.csv
+*.tsv
+*.xlsx
+*.png
+*.tif
+*.tiff
+*.pdf
+*.svg
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
