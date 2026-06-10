@@ -11,7 +11,7 @@ This repository does not include raw or processed data.
 - NHANES data are publicly available from the US National Center for Health
   Statistics: https://www.cdc.gov/nchs/nhanes/
 - NHANES linked mortality files are available from the NCHS data linkage program:
-  https://www.cdc.gov/nchs/data-linkage/mortality-public.htm
+  https://www.cdc.gov/nchs/linked-data/mortality-files/index.html
 - MIMIC-IV v3.1 is available from PhysioNet to credentialed users who complete
   the required training and data-use agreement:
   https://physionet.org/content/mimiciv/3.1/
@@ -108,6 +108,7 @@ R figure previews:
 ```powershell
 Rscript r_scripts/make_r_nature_style_2d_figure.R
 Rscript r_scripts/make_r_recalibration_event_count_figure.R
+Rscript r_scripts/make_npj_main_figures.R
 ```
 
 ## Main outputs
@@ -129,6 +130,7 @@ Nature-style figure previews are generated under:
 ```text
 outputs/nature_style_main_figure_preview/
 outputs/r_nature_style_figure_preview/
+outputs/npj_main_figures/
 ```
 
 ## Reproducibility notes
